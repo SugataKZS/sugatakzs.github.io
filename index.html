@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/jscolor.min.js"></script>
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>--SugataKZS--</title> 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <style>
+        @font-face {
+            font-family: Typesauce;
+            src: url('fonts/Typesauce.ttf');
+        }
+        body {
+            font-family: Typesauce;
+        }
+    </style>
+    <div id='panel' class = 'panels'>
+        <div class = 'panels btn-show-control' id='btn-tab-controls'>
+            <p class = 'panels btn-show-control' >close panel</p>
+        </div>
+        <div class = 'panels btn-menu-control settings' id='btn-tab-settings'>
+            <p class = 'panels btn-menu-control settings' >settings</p>
+        </div>
+        <div class = 'panels btn-menu-control details' id='btn-tab-details'>
+            <p class = 'panels btn-menu-control details' >details</p>
+        </div>
+        <div id='panel-settings' class = 'panels main-block'>
+            
+            <div id='BG' data-jscolor="">
+                
+                <p>Background</p>
+            </div>
+            <div id='color-lines' data-jscolor="">
+                
+                <p>color-lines</p>
+            </div>
+            <div id='color-particles' data-jscolor="">
+                
+                <p>color-particles</p>
+                
+            </div>
+            <p id="random-color"> <input type="checkbox" id="random-color-input" checked> random-color</p>
+            <div id='opacity-lines'>   
+                <p id='OL'>---------------------opacity-lines---------------------</p>
+                <p id='min-max-lines'></p>
+                <div id='opacity-lines-min' class='group-resize-lines-min'>
+                    <div id='resize-lines-min' class='group-resize-lines-min'></div>
+                </div>
+                <div id='opacity-lines-max' class='group-resize-lines-max'>
+                    <div id='resize-lines-max'  class='group-resize-lines-max'></div>
+                </div>
+            </div>
+            <div id='opacity-particles'>   
+                <p id='OP'>------------------opacity-particles------------------</p>
+                <p id='min-max-particles'></p>
+                <div id='opacity-particles-min' class='group-resize-particles-min'>
+                    <div id='resize-particles-min' class='group-resize-particles-min'></div>
+                </div>
+                <div id='opacity-particles-max' class='group-resize-particles-max'>
+                    <div id='resize-particles-max'  class='group-resize-particles-max'></div>
+                </div>
+            </div>
+            <p id='count-part'>count-particles</p>
+            <input maxlength='4' id='count-particles' class='fields' type="number" placeholder='' autocomplete = "off">
+            <p id='speed-part'>speed-particles</p>
+            <input maxlength='7' id='speed-particles' class='fields' type="number" placeholder='' autocomplete = "off">
+            <p id='radius-part'>radius-particles</p>
+            <input maxlength='10' id='radius-particles' class='fields' type="number" placeholder='' autocomplete = "off">
+            <p id='width-lin'>width-lines</p>
+            <input maxlength='10' id='width-lines' class='fields' type="number" placeholder='' autocomplete = "off">
+          
+        </div>
+        <div id='panel-details' class = 'panels main-block'>
+            <footer>
+                <a href="https://github.com/SugataKZS" target="_blank">
+                    <img class = 'feedback' id = 'github' src="img/github.png" alt="GitHub">
+                </a>
+                <a href="https://yunnet.ru" target="_blank">
+                    <img class = 'feedback' id = 'yunnet' src="img/yunnet.png" alt="yunnet">
+                </a>
+                <a href="https://t.me/SugataKZS" target="_blank">
+                    <img class = 'feedback' id = 'telegram' src="img/telegram.png" alt="telegram">
+                </a>
+                
+                <a href="https://vk.com/oreg2003ggk" target="_blank">
+                    <img class = 'feedback' id = 'vk' src="img/vk.png" alt="VK">
+                </a>
+                <!-- <a href="" target="_blank">
+                    <img class = 'feedback' id = 'discord' src="img/discord.png" alt="discord">
+                </a> -->
+                
+            </footer>
+            
+            
+        </div>
+        
+        <a href="https://github.com/SugataKZS/Particles-JavaScript-" target="_blank">
+            <p  id='download-particles'>
+                download particles
+            </p>
+        </a>
+        
+       
+    </div>
+    
+ 
+</body>
+</html>
